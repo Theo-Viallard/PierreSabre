@@ -18,7 +18,7 @@ public class Humain {
 	}
 	
 	public void direBonjour() {
-		parler("Bonjour ! Je m'appelle " + nom + " et j'aime boire du " + boisson);
+		parler("Bonjour ! Je m'appelle " + nom + " et j'aime boire du " + boisson + ".");
 	}
 	
 	public void boire() {
