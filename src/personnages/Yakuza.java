@@ -36,6 +36,13 @@ public class Yakuza extends Humain {
 	}
 	
 	
+	@Override
+	public void direBonjour() {
+		super.direBonjour();
+		parler("Mon clan est celui de " + clan);
+	}
+	
+	
 	public Yakuza(String nom, String boisson, int argent, String clan) {
 		super(nom, boisson, argent);
 		this.clan = clan;
