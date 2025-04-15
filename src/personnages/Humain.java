@@ -54,7 +54,7 @@ public class Humain {
 	}
 	
 	
-	private void memoriser(Humain autreHumain) {
+	protected void memoriser(Humain autreHumain) {
 		if (nbConnaissance == TAILLE_MEMOIRE) {
 			for (int i = 1; i < nbConnaissance; i++) {
 				memoire[i-1] = memoire[i];
